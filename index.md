@@ -1,10 +1,5 @@
 ---
 layout: default
-title: "Portfolio PAD 2025"
----
-
----
-layout: default
 title: "Ousmane Gueye - Portfolio PAD 2025"
 description: "Designer Graphique & Développeur Full Stack - Candidat Hack'arthon PAD 2025"
 ---
