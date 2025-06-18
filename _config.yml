@@ -1,8 +1,25 @@
-theme: minima
----
-layout: default
-title: Portfolio PAD 2025
----
+title: "Ousmane Gueye - Portfolio PAD 2025"
+description: "Designer Graphique & Développeur Full Stack - Hack'arthon PAD 2025"
+email: ousmaneg186@gmail.com
 
-## Portfolio de Participation – Hack’arthon PAD 2025
-…
+# Thème GitHub Pages
+theme: minima
+
+# Plugins automatiques
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Informations personnelles
+author:
+  name: "Ousmane Gueye"
+  email: "ousmaneg186@gmail.com"
+
+# Langue
+lang: fr
+
+# Exclusions
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
