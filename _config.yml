@@ -1,25 +1,48 @@
+# _config.yml - Configuration corrigée pour GitHub Pages
 title: "Ousmane Gueye - Portfolio PAD 2025"
 description: "Designer Graphique & Développeur Full Stack - Hack'arthon PAD 2025"
 email: ousmaneg186@gmail.com
 
+# URL de base (remplacez par votre username GitHub)
+baseurl: "/portfolio-pad2025" # nom de votre repository
+url: "https://VOTRE-USERNAME.github.io" # remplacez VOTRE-USERNAME
+
 # Thème GitHub Pages
 theme: minima
 
-# Plugins automatiques
+# Plugins GitHub Pages autorisés
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-# Informations personnelles
+# Informations auteur
 author:
   name: "Ousmane Gueye"
   email: "ousmaneg186@gmail.com"
 
-# Langue
+# Configuration markdown
+markdown: kramdown
+highlighter: rouge
+
+# Langue du site
 lang: fr
 
-# Exclusions
+# Exclusions (fichiers à ignorer)
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - vendor/
+  - docs/
+
+# Paramètres de construction
+safe: true
+incremental: false
+
+# Pas de dossier source personnalisé
+# source: . (par défaut)
+
+# Pas de CSS/SCSS personnalisé pour éviter les erreurs
+sass:
+  style: compressed
